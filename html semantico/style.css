@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poltawski+Nowy:ital@1&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat&family=Poltawski+Nowy:ital@0;1&family=Sigmar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: #1D267D;
+}
+
+.demon{
+width: 200px;
+height: 240px;
+border: solid 1px;
+margin-top: 50px;
+}
+.head{
+    height: 120px;
+}
+
+.anime{
+    display: flex;
+    justify-content: center;
+    top:50px;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Poltawski Nowy', serif;
+    background-color: #fff;
+    width: 300px;
+    border: solid 5px #fff;
+    border-radius: 15px;
+}
+
+.compu{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.subt{
+    font-family: 'Poltawski Nowy', serif;
+}
+
+.sub{
+    font-family: 'Caveat', cursive;
+    font-size:20px;
+    margin: 10px;
+
+}
+.epi{
+    margin: 15px;
+    margin-top: 18px;
+    background-color: #fff;
+    list-style: none ;
+    border: solid 2px ;
+    border-radius: 10px;
+    height: 540px;
+
+}
+.subt9{
+    background-color: #fff;
+    border: solid 2px ;
+    border-radius: 15px;
+    width: 168px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Poltawski Nowy', serif;
+}
+.tele{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    width: 1100px;
+    margin: 18px;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    width: 1100px;
+    margin: 18px;
+}
+
+.cel{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    width: 1100px;
+    margin: 18px;
+    
+}
+
+.final{
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.sena{
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 600px;
+    text-align: center;
+}
+
+
+
+.marge{
+    margin-top: 30px;
+}
+.demon-margen{
+    width: 200px;
+    height: 240px;
+    border: solid 1px;
+    margin-top: 70px;
+}
+.demon1{
+    width: 200px;
+    height: 240px;
+    border: solid 1px;
+    margin-top: 70px;
+}

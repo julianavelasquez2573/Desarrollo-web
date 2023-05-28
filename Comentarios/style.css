@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: rgb(41,60,135);
+    background: radial-gradient(circle, rgba(41,60,135,1) 0%, rgba(18,13,94,1) 87%);
+    letter-spacing: 1px;
+    padding: 20px;
+}
+.contenedor{
+    max-width: 650px;
+    margin: 50px auto;
+}
+.span{
+    font-size: 10px;
+    width: 130px;
+    justify-content: space-between;
+}
+
+p{
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 14px;
+    opacity: 0.9;
+}
+.div-one{
+    position: relative;
+    padding-left: 4rem;
+    margin: 0 0 0 30px;
+    color: #fff;
+}
+.div-one::before {
+    content: "";
+    width: 4px;
+    height: 99%;
+    position: absolute;
+    background-color: #c1c2cf;
+    left: 0;
+    top: 15px;
+}
+.div-one .div-two{
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.div-one .div-two .icon{
+    position: absolute;
+    left: -88px;
+    top: 4px;
+    width: 48px;
+    height: 48px;
+    background-color: #4f537b;
+    border-radius: 50%;
+    font-size: 3rem;
+    text-align: center;
+}
+.div-one .div-two .icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenes-cora{
+    max-width: 35px;
+    margin-top: 7px;
+}
+.div-one .div-two .time-body{
+    background-color: #0e0f17;
+    border-radius: 6px;
+    padding: 20px 18px 15px 20px;
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.div-one .div-two .time-body:hover{
+    box-shadow: 1px 3px 20px rgba(255, 255, 255, 0.685);
+}
+.div-one .div-two .time-body::before{
+    content: "";
+    background-color: inherit;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: -10px;
+    transform: rotate(45deg);
+    border-radius: 0 0 0 3px;
+}
+.div-one .div-two .time-body .header{
+    margin-bottom: 1.2rem;
+}
+.div-one .div-two .time-body .one{
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.4;
+    margin-top: 16px;
+    font-size: 11px;
+}

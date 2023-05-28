@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Playfair+Display:ital,wght@0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Domine:wght@500&family=Playfair+Display:ital,wght@0,700;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.cuenta{
+    text-align: center;
+
+}
+.contenedor-principal{
+    text-align: center;
+    align-items: center; 
+}
+.titulo{
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+.subtitulo{
+    font-family: 'Domine', serif;
+    font-size: 37px;
+    width: 400px;
+}
+.titulos-movi{
+    font-family: 'Domine', serif;
+    font-size: 32px;
+    width: 420px;
+}
+.titulos-de-movientos{
+    font-family: 'Caveat', cursive;
+    color: darkgreen;
+    font-size: 28px;
+}
+.titulos-de-movientos-negativo{
+    font-family: 'Caveat', cursive;
+    color: brown;
+    font-size: 28px;
+}
+.informacion{
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+}
+.Ultimo{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}

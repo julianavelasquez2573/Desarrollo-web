@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(188, 186, 186);
+}
+.nombre{
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    height: 3.4rem;
+}
+.nombre h1{
+    padding-top: 9px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+.presentacion{
+    display: flex;
+    justify-content: center;
+    width: 590px;
+    margin-bottom: 1rem;
+    margin-left: 400px;
+}
+.pre1{
+    margin-top: 30px;
+}
+.pre1 h2{
+    font-size: 30px;
+}
+.pre1 p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.presentacion h2{
+    display: flex;
+    justify-content: center;
+}
+.img-gustos{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.img-gustos h2{
+    font-size: 30px;
+}
+.img-gustos p{
+    padding-top: 15px;
+    font-size: 30px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.img{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    justify-content: space-around;
+    box-shadow:  1px 2px 16px 4px  #000000;
+}
