@@ -1,0 +1,281 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(238,235,235);
+    background: linear-gradient(90deg, rgba(238,235,235,1) 0%, rgba(235,228,228,1) 0%, rgba(227,223,223,1) 100%);
+
+}
+.head{
+    margin: 15px;
+    height: 50px;
+}
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.title{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.navbar a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: black;
+    font-size: 15px;
+}
+/*Estilos de los iconos en la barra*/
+.iconos{
+    margin: -10px;
+    display: flex;
+    height: 32px;
+    width: 200px;
+    align-items: center;
+    font-size: 23px;
+}
+.iconos a:hover,
+.iconos a.active{
+    font-size: 27px;
+}
+
+.iconos span{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px; 
+}
+.iconos a{
+    text-decoration: none;
+    align-items: center;
+}
+/*Estilos de el cuadro de informacion*/
+.contenido h1{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 120px;
+    font-size: 35px;
+    color: #fff;
+    width: 600px;
+    
+}
+.contenido p{
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 120px;
+    font-size: 18px;
+    color: #fff;
+    width: 600px;
+}
+
+.image{
+    width: 400px ;
+    display: block;
+    margin-left: 245px;
+    margin-top:  10px;
+    opacity: .9;
+    filter: drop-shadow(-10px -15px 25px rgba(0, 0, 0, 0.55));
+    /*El filter: drop-shadow ( con sus variaciones nos ayuda a poner un sombreado
+    y poderlo dirigirlos en diferentes variaciones*/ 
+}
+.info{
+    display: flex;
+    justify-content: space-around;   
+}
+.contenedor{
+    margin-top: -10px;
+    height: 260px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(43,43,50,1) 46%, rgba(255,255,255,1) 100%);
+}
+
+
+
+.prod{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fotop{
+    width: 150px;
+    height: 150px;
+    margin-top: 36px;
+    margin-right: -48px;
+    margin-left: 558px;
+    border-radius: 80px;
+}
+
+.gif {
+    width: 150px;
+    height: 150px;
+    margin-top: 36px;
+    margin-right: -48px;
+    margin-left: 558px;
+    border-radius: 80px;
+}
+
+.famy1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 137px;
+    margin-right: -48px;
+    margin-left: 72px;
+    border-radius: 80px;
+  }
+  
+  .famy1 img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .famy1 img.gif:hover {
+    opacity: 0;
+  }
+/*.famy1{
+    width: 150px;
+    height: 150px;
+    margin-top: 137px;
+    margin-right: -48px;
+    margin-left: 72px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background: url("/Imagenes/hermana.jpeg") no-repeat;
+}
+.famy1:hover {
+    background: url("/Imagenes/gif-billie.gif") no-repeat;
+}*/
+
+
+.clas{
+    width: 600px;
+    margin-top: 85px;
+    margin-left: 110px;
+}
+.clas h2{
+    font-size: 50px;
+}
+.clas p {
+    margin-top: 30px;
+}
+
+.parrafo{
+    height: 200px;
+    width: 350px;
+    font-size: 20px;
+}
+.texs{
+    width: 466px;
+    margin-top: 197px;
+    margin-right: 300px;
+    margin-left: 90px;
+   
+}
+.texi{
+    width: 466px;
+    margin-top: 33px;
+    margin-right: -32px;
+    margin-left: 26px;
+}
+.famy {
+    width: 150px;
+    height: 150px;
+    margin-top: 137px;
+    margin-right: -48px;
+    margin-left: 72px;
+    border-radius: 80px;
+  }
+  
+.famy img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+.famy img.tof:hover {
+    opacity: 0;
+  }
+.fot{
+    width: 150px;
+    height: 150px;
+    margin-left: 560px;
+    margin-top: -129px;
+    border-radius: 80px
+}
+.tof{
+    width: 150px;
+    height: 150px;
+    margin-left: 560px;
+    margin-top: -129px;
+    border-radius: 80px
+}
+.mother {
+    width: 150px;
+    height: 150px;
+    margin-top: -2px;
+    margin-right: -48px;
+    margin-left: 72px;
+    border-radius: 80px;
+  }
+  
+.mother img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+.mother img.papa:hover {
+    opacity: 0;
+    }
+
+.mama{
+        width: 150px;
+        height: 150px;
+        margin-left: 560px;
+        margin-top: -70px;
+        border-radius: 80px
+}
+.papa{
+    width: 150px;
+    height: 150px;
+    margin-left: 560px;
+    margin-top: -70px;
+    border-radius: 80px
+}
+
+.can{
+    margin-bottom:15px;
+}
+.relative{
+    margin-top: -210px;
+    margin-left: 111px;
+}
+.video{
+    width: 345px;
+    height: 220px;
+}
+.myp{
+    padding-left: 736px;
+    margin-top: -189px;
+}
