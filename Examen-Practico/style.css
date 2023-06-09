@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    height: 4rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
+.ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    list-style: none;
+    align-items: center;
+}
+.li{
+    border-right: solid 2px;
+    padding: 0 1rem 0 1rem;
+}
+.boton-one{
+    border: solid 2px whitesmoke;
+    background: transparent;
+    color: aliceblue;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    margin: 0 13px;
+}
+.boton-one:hover{
+    background-color: rgb(46, 141, 231);
+    border: none;
+}
+.boton-two{
+    border: solid 2px ;
+    background: transparent;
+    background-color: rgb(46, 141, 231);
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+}
+.boton-two:hover{
+    background-color:  whitesmoke;
+    border: none;
+}
+.section{
+    background-color: rgb(199, 194, 229);
+    color: rgb(224, 209, 246);
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.5rem;
+
+}
+.section h1{
+    color: black;
+    font-size: 2.5rem;
+}
+.section input{
+    padding: 0.6rem 30rem 0.6rem 1.2rem ;
+}
+#search{
+    border: solid 1px black;
+    box-shadow: 0px 0px 16px 0px;
+    width: 50%;
+    height: 35px;
+    margin: 15px;
+}
+.section-segundo{
+    margin-bottom: 4.5rem;
+}
+.segundo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.informacion-div{
+    display: flex;
+    justify-content: space-between;
+}
+.texto{
+    border: 1px solid rebeccapurple;
+    width: 27rem;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.texto img{
+    width: 5rem;
+    height: 6rem;
+    margin-right: 15px;
+}
+.texto-informa h1{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.texto-informa p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.texto-informa a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.texto-informa a:hover{
+    border: 1px solid black;
+    background:  rgb(224, 209, 246);
+    color: black;
+    border-radius: 5px;
+}
+footer{
+    background: rgb(183, 151, 151);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 20px;
+}
