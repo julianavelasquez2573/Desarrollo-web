@@ -90,7 +90,7 @@ header{
     justify-content: space-between;
 }
 .texto{
-    border: 1px solid rebeccapurple;
+    /*border: 1px solid rebeccapurple;*/
     width: 27rem;
     height: 9rem;
     display: flex;
