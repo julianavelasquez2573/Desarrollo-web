@@ -1,0 +1,57 @@
+section{
+    display: flex;
+    justify-content: space-around;
+}
+.elemento{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    animation-name: desplazamineto; /*Aca nombramos la animacion*/
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes desplazamineto{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.elemento1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    font-size: 24px;
+    text-align: center;
+    line-height: 200px; /*Nos da una espacio de acuerdo al tamaño, sin necesidad de margin*/
+    animation-name: zoom-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes zoom-color{
+    0%{
+        transform: scale(1);
+        background-color: aquamarine;
+    }
+    50%{
+        transform: scale(1.5);
+        background-color: rgb(176, 33, 25);
+    }
+    100%{
+        transform: scale(1);
+        background-color: rgb(53, 18, 123);
+    }
+}
+
+
+
+
+
+
+
+
+
