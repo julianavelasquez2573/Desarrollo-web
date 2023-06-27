@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Playfair+Display+SC:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans&family=Open+Sans&family=Playfair+Display+SC:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #9bcdc4;
+    background-color: #fff;
 }
+/*Header*/
 header{
-    background-color: aliceblue;
+    background-color: white;
+    height: 99px;
 }
 .navbar{
     display: flex;
@@ -18,16 +23,41 @@ ul{
     align-items: center;
     gap: 2rem;
     list-style: none;
-    padding: 24px 45px 24px 45px;
+    padding: 18px 40px 18px 40px;
+    font-weight: 900;
+    
 }
 
 .prueba li:nth-child(2){
     border: none;
     border-bottom: solid black;
 }
+.prueba img{
+    width: 60px;
+}.content-btn img{
+    width: 20px;
+}
+.finStore{
+    display: flex;
+    gap: 1rem;
+}
+
+.a{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.a   :hover{
+   color: #008248;
+}
+.finStores{
+    display: flex;
+    gap: 1rem;
+}
 .btn-Sign{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     width: 80px;
     padding: 5px;
     background: white;
@@ -40,7 +70,7 @@ ul{
 }
 .btn-join{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 700;
     width: 100px;
     padding: 5px;
     background: black;
@@ -50,4 +80,222 @@ ul{
 }
 .btn-join:hover{
     background-color:  rgba(63, 62, 62, 0.861);;
+}
+.barraDos{
+    background-color: #1e3932 ;
+    height: 50px;
+    font-size: 8px;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 133px;
+}
+/*Primer section*/
+.section{
+    background-color: #d4e9e2;
+    height: 763px;
+    background-image: url(Img-Starbucks/Mi\ proyecto.png);
+    background-repeat: no-repeat;
+    background-position: 510% 50% ;
+    background-size: contain;
+}
+.div-estrella{
+    padding-top: 255px;
+    padding-left: 132px;
+}
+.div-estrella h1{
+    margin-bottom: 25px;
+    width: 350px;
+    font-size: 50px;
+   
+}
+.div-estrella p{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif
+}
+.button{
+    background: #008248 ;
+    border: #008248;
+    border-radius: 2rem;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    margin-bottom: 25px
+}
+.div-estrella a{
+    color: black;
+    font-family: 'Open Sans', sans-serif
+}
+.al:hover{
+    text-decoration: none;
+}
+/*Segundo section*/
+.section-two{
+    height: 579px;
+}
+.started{
+    text-align: center;
+    padding-top: 110px;
+}
+.started h2{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.started p{
+    margin-top: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.started-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.started-twere{
+    width: 350px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.all:hover{
+    text-decoration: none;
+}
+.started-twere img{
+    width: 50px;
+}
+.started-twere h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.started-twere p{
+    font-weight: 700;
+}
+.started-twere a{
+    color: #008248;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Tecer section*/
+.favorito{
+    height: 140px;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f8f6 ;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.favorito h2{
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+.lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    font-size: 30px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.lista span{
+    color: rgb(175, 175, 84);
+    font-size: 20px;
+}
+
+.shop{
+    height: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: #d4e9e2;
+ 
+    box-shadow: inset 0 7px 9px -7px rgb(0 0 0 / 14%);
+  
+}
+.img img{ 
+    width: 380px;
+}
+
+.info{
+    width: 300px;
+    padding-top: 50px;
+}
+
+.info h2{
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+.info p{
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Cuato section*/
+.final{
+    height: 600px;
+}
+
+.infoo{
+    margin: auto;
+    padding-top: 90px;
+    text-align: center;
+    width: 800px;
+}
+.infoo h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif
+}
+.pp{
+    width: 640px;
+    margin-left: 80px;
+    font-family: 'Open Sans', sans-serif
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px ;
+}
+
+.extras{
+    text-align: center;
+}
+
+.extras img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+.extras h2{
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.extras p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.extras a{
+    color: #008248;
+    font-family: 'Open Sans', sans-serif
+}
+.learn-more:hover{
+    text-decoration: none;
 }
